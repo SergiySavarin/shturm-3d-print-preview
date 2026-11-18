@@ -1,0 +1,11 @@
+[project]
+name = "folder-preview"
+version = "0.1.0"
+description = "Local CAD folder to PDF preview catalog"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "cadquery-ocp==7.8.1.1.post1",
+  "matplotlib==3.10.8",
+  "reportlab==4.4.9",
+  "pypdf==6.7.5",
+]
